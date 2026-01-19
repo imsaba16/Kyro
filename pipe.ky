@@ -1,0 +1,5 @@
+pipe {
+    run "cat", "hello.ky"
+    run "grep", "run"
+    run "wc", "-l"
+}

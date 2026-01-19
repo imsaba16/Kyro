@@ -1,0 +1,6 @@
+package com.kyro.lexer
+
+data class Position(
+    val line: Int,
+    val column: Int
+)
